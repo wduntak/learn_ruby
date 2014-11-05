@@ -70,7 +70,7 @@ describe "some silly block functions" do
   describe "repeater" do
     it "executes the default block" do
       n = 2
-      repeater do
+      repeatecd ..r do
         n += 3
       end
       expect(n).to eq(5)
